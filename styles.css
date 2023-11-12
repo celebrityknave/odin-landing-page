@@ -1,6 +1,63 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .header {
     background-color: #1F2937;
-    color: #F9FAF8
+    color: #F9FAF8;
+}
+
+.top-bar {
+    display: flex;
+    padding-top: 2%;
+    padding-left: 10%;
+}
+
+.header-items {
+    flex: 1;
+    display: flex;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.links {
+    font-weight: lighter;
+    font-size: 18px;
+    color: #E5E7EB;
+    flex: 1;
+}
+
+.website-summary {
+    padding: 10%;
+
+    display: flex;
+}
+
+.summary-items {
+    flex: 1;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button {
+    background-color: #3882F6;
+    border: none;
+    padding: 8px 32px;
+    margin-top: 5%;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
 }
 
 .quote {

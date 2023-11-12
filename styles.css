@@ -2,6 +2,19 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a:link {
+    color:#E5E7EB;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#3882F6
+}
+
+a:visited {
+    color:slategrey;
+}
+
 ul {
     flex: 1;
     display: flex;
@@ -151,4 +164,9 @@ ul {
     border-radius: 8px;
     cursor: pointer;
     padding: 8px 32px;
+}
+
+.footer-signup:hover {
+    background-color: #F9FAF8;
+    color:#3882F6;
 }

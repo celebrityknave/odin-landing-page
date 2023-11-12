@@ -89,10 +89,25 @@
 
 .box-item {
     aspect-ratio: 1 / 1;
-    margin: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
     border-style: solid;
     border-color: #3882F6;
     border-radius: 15px;
+    flex: 1;
+}
+
+.info-captions {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: slategrey;
+}
+
+.caption-item {
+    text-align:center;
+    margin-left: 3%;
+    margin-right: 3%;
     flex: 1;
 }
 

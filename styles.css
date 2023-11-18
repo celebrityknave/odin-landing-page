@@ -23,9 +23,18 @@ ul {
     padding: 0;
 }
 
+body {
+    margin: 0px;
+}
+
 .header {
     background-color: #1F2937;
     color: #F9FAF8;
+    /* width: 100%; */
+    /* padding-left: 0px; */
+    /* padding-right: 0px; */
+    /* margin-left: 0px; */
+    /* margin-right: 0px; */
 }
 
 .top-bar {

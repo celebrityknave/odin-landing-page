@@ -12,7 +12,11 @@ a:hover {
 }
 
 a:visited {
-    color:slategrey;
+    color:#E5E7EB;
+}
+
+a:hover:visited {
+    color:#3882F6;
 }
 
 ul {
